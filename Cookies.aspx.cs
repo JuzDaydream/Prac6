@@ -33,8 +33,9 @@ namespace Prac6
             if (cookie != null)
             {
                 language = cookie["Language"];
+                country = cookie["Country"];
             }
-            lblDisplay.Text = language + country;
+            lblDisplay.Text = language +" "+ country;
         }
     }
 }
